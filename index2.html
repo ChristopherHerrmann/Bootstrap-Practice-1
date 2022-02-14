@@ -15,17 +15,17 @@
     <div class="title" style="text-align:center; font-size: 75px" >
       <h1>Bootstap Practice</h1>
     </div>
-    
+
     <div id="demo" class="carousel slide" data-bs-ride="carousel" style="background-color: #28242c">
 
-      <!-- Indicators/dots -->
+
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
       </div>
 
-      <!-- The slideshow/carousel -->
+
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="img4\stockA1.jpg" alt="Stock" class="d-block" style="width:1500px; margin: auto">
@@ -38,7 +38,7 @@
         </div>
       </div>
 
-      <!-- Left and right controls/icons -->
+
       <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </button>
@@ -117,17 +117,40 @@
       </div>
     </div>
   </div>
-  <button data-bs-toggle="collapse" data-bs-target="#demo">Collapsible</button>
 
-  <div id="demo" class="collapse">
-  Lorem ipsum dolor text....
-  </div>
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" style="padding-left:922.51px; padding-right:922.51px; padding-top: 20px; padding-bottom: 20px" >
+  Is the Stock Market Open?
+  </button>
 </div>
 
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
 
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title"></h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal">As of 1:45</button>
+      </div>
 
+      <!-- Modal body -->
+      <div class="modal-body">
+      Yes, The Stock Market is open
+      </div>
 
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
 
+    </div>
+  </div>
+</div>
+<br>
+<div class="text-center">
+<button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="L + Ratio " style="font-size:30px">Do Not Hover Over this text</button>
+</div>
 
 
 
